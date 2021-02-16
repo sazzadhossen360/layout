@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.layout{
+    float: left;
+}
+.header-left-box.layout {
+    width: 28%;
+    height: 100px;
+    background: #38C8FE;
+    margin: 1%;
+}
+
+.header-right-box.layout {
+    width: 68%;
+    height: 100px;
+    background: #FFAF47;
+    margin: 1%;
+}
+
+
+.footer-box.layout {
+    width: 31.33%;
+    height: 100px;
+    background: #FFD647;
+    margin: 1%;
+}
+.middle-section.clearfix {
+    width: 100%;
+    background: orange;
+    height: 100px;
+}
+
+
